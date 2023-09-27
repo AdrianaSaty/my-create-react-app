@@ -5,6 +5,9 @@
   "repository": "https://github.com/AdrianaSaty/my-create-react-app.git",
   "author": "AdrianaSaty <adri-saty@hotmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "babel src -d build"
+  },
   "devDependencies": {
     "@babel/cli": "^7.23.0",
     "@babel/core": "^7.23.0",
