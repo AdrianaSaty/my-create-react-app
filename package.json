@@ -4,5 +4,10 @@
   "main": "index.js",
   "repository": "https://github.com/AdrianaSaty/my-create-react-app.git",
   "author": "AdrianaSaty <adri-saty@hotmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.0",
+    "@babel/preset-env": "^7.22.20"
+  }
 }
