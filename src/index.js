@@ -1,5 +1,7 @@
-const user = {};
+import React from "react";
+import ReactDOM from "react";
 
-console.log(location?.street);
-
-// run "yarn build" to run babel
+ReactDOM.render(
+    <h1 id="test">Hello World!</h1>,
+    document.getElementById("root"),
+)
