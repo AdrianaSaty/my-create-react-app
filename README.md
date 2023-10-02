@@ -8,3 +8,8 @@ to refresh the file.
 When the name remains the same, even if the content changes, the browser
 will not refresh the file :)
 Also installed `html-webpack-plugin` to change the bundle name at index.html
+
+- feature: installs cleanWebpackPlugin
+
+Installs a webpack plugin that clean the old and unused bundle everytime we
+generate a new bundle
