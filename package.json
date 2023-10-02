@@ -6,7 +6,7 @@
   "author": "AdrianaSaty <adri-saty@hotmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "babel src -d transpiled"
+    "build": "babel src -d transpiled && webpack"
   },
   "devDependencies": {
     "@babel/cli": "^7.23.0",
