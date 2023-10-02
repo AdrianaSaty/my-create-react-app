@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-    entry: path.resolve(__dirname, 'src', 'index.js'),
+    entry: path.resolve(__dirname, 'transpiled', 'index.js'),
     output: {
         path: path.resolve(__dirname, 'build'),
         filename: 'bundle.js'
@@ -9,6 +9,6 @@ module.exports = {
 };
 
 /* 
-if we run "yarn webpack" it will throw an error, 
-we need to run it at the output file from babel
+now run "yarn build" and then "yarn webpack"
+Then open index.html at browser and voilà!
 */ 
